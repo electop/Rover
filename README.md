@@ -21,3 +21,6 @@ python -m virtualenv venv
 sudo pip install -e .
 sudo ./start.sh 
 ```
+https://hackaday.io/project/158208-sawppy-the-rover
+https://github.com/Roger-random/SGVHAK_Rover
+https://github.com/Roger-random/Sawppy_Rover/blob/master/docs/SGVHAK%20Rover%20Software.md
