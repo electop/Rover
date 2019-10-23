@@ -1,5 +1,14 @@
 ## Prerequites
 ```
+pip --version
+sudo python -m pip uninstall pip setuptools
+sudo python3 -m pip uninstall pip setuptools
+sudo python get-pip.py
+sudo apt install python3-pip
+pip3 --version
+pip --version
+python -m ensurepip --default-pip
+pip install virtualenv
 git clone https://github.com/Roger-random/SGVHAK_Rover.git
 cd SGVHAK_Rover
 git branch -a
