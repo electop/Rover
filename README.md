@@ -2,7 +2,7 @@
 ```
 pip --version
 sudo python3 -m pip uninstall pip setuptools
-wget https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 sudo python get-pip.py
 sudo apt install python3-pip
 pip3 --version
