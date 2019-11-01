@@ -24,3 +24,11 @@ sudo ./start.sh
 https://hackaday.io/project/158208-sawppy-the-rover<br>
 https://github.com/Roger-random/SGVHAK_Rover<br>
 https://github.com/Roger-random/Sawppy_Rover/blob/master/docs/SGVHAK%20Rover%20Software.md
+
+### start.sh
+'''
+export FLASK_APP=SGVHAK_Rover
+#export FLASK_DEBUG=1
+#flask run
+flask run --host=0.0.0.0 &
+'''
