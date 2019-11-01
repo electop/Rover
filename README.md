@@ -32,3 +32,13 @@ export FLASK_APP=SGVHAK_Rover
 #flask run
 flask run --host=0.0.0.0 &
 ```
+
+### init.sh (e.g.) init.sh 300
+```
+#!/bin/bash
+echo "arg: $1"
+sudo python3 SGVHAK_Rover/lewansoul_wrapper.py --id 23 --move $1
+sudo python3 SGVHAK_Rover/lewansoul_wrapper.py --id 29 --move $1
+sudo python3 SGVHAK_Rover/lewansoul_wrapper.py --id 24 --move $1
+sudo python3 SGVHAK_Rover/lewansoul_wrapper.py --id 26 --move $1
+```
